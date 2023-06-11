@@ -24,8 +24,8 @@ if __name__ == "__main__":
     #np.random.seed(42)
     #tf.random.set_seed(42)
     ## Dataset
-    #path = "PNG/"
-    path = "/content/drive/MyDrive/Master/polypsIdiot/PNG/"
+    path = "PNG/"
+    #path = "/content/drive/MyDrive/Master/polypsIdiot/PNG/"
     (train_x, train_y), (valid_x, valid_y), (test_x, test_y) = load_data(path)
 
     ## Hyperparameters
