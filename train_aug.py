@@ -47,7 +47,6 @@ if __name__ == "__main__":
     #Path
     dataset_path = os.path.join("dataset", "aug/")
     
-    path = "PNG/"
     (train_x, train_y), (valid_x, valid_y) = load_aug_data(dataset_path)
     
     print(f"Train: {len(train_x)} - {len(train_y)}")
